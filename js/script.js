@@ -3,7 +3,8 @@ function init() {
 
     button.addEventListener("click", function() {
         let userText = document.getElementById("entryinput").value;
-        alert(userText);
+        alert("Ana Lorenzo: " + userText);
+
         document.getElementById("textoutput").textContent = userText;
     });
 }
